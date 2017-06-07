@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\m.kedziera\\PycharmProjects\\ImageAI\\CatDog\\trained_variables.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\m.kedziera\\PycharmProjects\\ImageAI\\CatDog\\trained_variables.ckpt"
