@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a60f29-60fc-4f06-aa7c-82b477a5e983" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ImageAI/NEWFILE.PY.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/dataset.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/dataset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/savingexample.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/savingexample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/downloader.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/downloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/testing_data/dogs/downloader.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/testing_data/dogs/downloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/train.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/training_data/cats/downloader.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/training_data/cats/downloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/downloader.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/downloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/Recognize.py" afterPath="$PROJECT_DIR$/ImageAI/Recognize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/basics.py" afterPath="$PROJECT_DIR$/ImageAI/basics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/catdog.py" afterPath="$PROJECT_DIR$/ImageAI/catdog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/deep-net.py" afterPath="$PROJECT_DIR$/ImageAI/deep-net.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/digitclassifier.py" afterPath="$PROJECT_DIR$/ImageAI/digitclassifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/estimatr.py" afterPath="$PROJECT_DIR$/ImageAI/estimatr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/gray_image.py" afterPath="$PROJECT_DIR$/ImageAI/gray_image.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/imageimport.py" afterPath="$PROJECT_DIR$/ImageAI/imageimport.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/introduction.py" afterPath="$PROJECT_DIR$/ImageAI/introduction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/learning.py" afterPath="$PROJECT_DIR$/ImageAI/learning.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/linearregression.py" afterPath="$PROJECT_DIR$/ImageAI/linearregression.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/textpositive.py" afterPath="$PROJECT_DIR$/ImageAI/textpositive.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageAI/NEWFILE.PY.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,21 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="introduction.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="introduction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ImageAI/introduction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NEWFILE.PY.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ImageAI/NEWFILE.PY.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
