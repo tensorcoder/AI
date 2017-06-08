@@ -2,13 +2,13 @@ from PIL import Image
 import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
-from gray_image import GreyImage
+from ImageAI.gray_image import GreyImage
 import time
 import functools
+from collections import Counter
 
-
-# i = Image.open('images/dot.png') # 8*8 image
-# iar = np.asarray(i) # 8 arrays corresponding to rows and 8 lines per each array corresponding to columns in those rows
+i = Image.open('images/dot.png') # 8*8 image
+iar = np.asarray(i) # 8 arrays corresponding to rows and 8 lines per each array corresponding to columns in those rows
 
 # print(iar) # the output gives number 255 so the image was saved as a 256 bitmap
 # threshold = GreyImage('images/numbers/y0.5.png').save_grey_image()
@@ -62,9 +62,61 @@ def threshold(imageArray):
 
     return newAr
 
-
+# function to take image and compare to database
 def whatNumIsThis(filePath):
     matchedAr = []
+    loadExamps = open('numArEx.txt', 'r').read()
+    loadExamps = loadExamps.split('\n')
+
+    i = Image.open(filePath)
+    iar = np.array(i)
+    iarl = iar.tolist()
+
+    inQuestion = str(iarl)
+
+    for eachExample in loadExamps:
+        if len(eachExample) > 3: # not to have to worry about blank lines
+            splitEx = eachExample.split('::')
+            currentNum = splitEx[0]
+            currentAr = splitEx[1]
+
+            eachPixEx = currentAr.split('],')
+            eachPixInQ = inQuestion.split('],')
+
+            x = 0
+
+            while x < len(eachPixEx):
+                if eachPixEx[x] == eachPixInQ[x]:
+                    matchedAr.append(int(currentNum))
+
+                x+=1
+    print(matchedAr)
+
+    x = Counter(matchedAr) #counter goes through array and counts
+    print(x)
+
+    graphX = []
+    graphY = []
+
+    for eachThing in x:
+        print(eachThing)
+        graphX.append(eachThing)
+        print(x[eachThing])
+        graphY.append(x[eachThing])
+
+    fig = plt.figure()
+    ax1 = plt.subplot2grid((4,4), (0,0), rowspan=1, colspan=4)
+    ax2 = plt.subplot2grid((4,4), (1,0), rowspan=3, colspan=4)
+
+    ax1.imshow(iar)
+
+    ax2.bar(graphX, graphY, align='center') #only wanna center when your x ticks are names or dates
+
+    plt.ylim(300)
+
+whatNumIsThis('/Users/mk/PycharmProjects/AI/ImageAI/ImageRecognition/images/numbers/test.png')
+
+
 
 # i = Image.open('images/numbers/0.1.png')
 # iar = np.array(i)

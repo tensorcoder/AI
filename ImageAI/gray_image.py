@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import os
-from ImageRecognition.findextension import FindExtension
+from ImageAI.ImageRecognition.findextension import FindExtension
 
 """This class just takes an image as input and saves a greyscale version of the image as originalimagename_grey.jpg
 when you call GrayImage(path).save_grey_image()"""
