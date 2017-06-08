@@ -29,7 +29,7 @@ def createExamples():
             lineToWrite = str(eachNum)+'::'+eiar1+'\n'
             numberArrayExamples.write(lineToWrite)
 
-createExamples()
+# createExamples()
 
 def threshold(imageArray):
     ar=imageArray
@@ -113,6 +113,14 @@ def whatNumIsThis(filePath):
     ax2.bar(graphX, graphY, align='center') #only wanna center when your x ticks are names or dates
 
     plt.ylim(300)
+
+    xloc = plt.MaxNLocator(12)
+
+    ax2.xaxis.set_major_locator(xloc)
+
+    plt.show()
+
+
 
 whatNumIsThis('/Users/mk/PycharmProjects/AI/ImageAI/ImageRecognition/images/numbers/test.png')
 
