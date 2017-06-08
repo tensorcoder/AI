@@ -8,10 +8,10 @@ import functools
 from collections import Counter
 
 i = Image.open('images/dot.png') # 8*8 image
-iar = np.asarray(i) # 8 arrays corresponding to rows and 8 lines per each array corresponding to columns in those rows
-
+iar = np.array(i) # 8 arrays corresponding to rows and 8 lines per each array corresponding to columns in those rows
+print(iar)
 # print(iar) # the output gives number 255 so the image was saved as a 256 bitmap
-# threshold = GreyImage('images/numbers/y0.5.png').save_grey_image()
+threshold = GreyImage('images/numbers/y0.5.png').save_grey_image()
 
 def createExamples():
     numberArrayExamples = open('numArEx.txt', 'a')
@@ -112,7 +112,7 @@ def whatNumIsThis(filePath):
 
     ax2.bar(graphX, graphY, align='center') #only wanna center when your x ticks are names or dates
 
-    plt.ylim(300)
+    plt.ylim(250)
 
     xloc = plt.MaxNLocator(12)
 
