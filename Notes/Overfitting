@@ -1,0 +1,39 @@
+Regularization --> modifies function that we minimize by adding additional terms that penalize large weights.
+Error + f(ø)
+
+f(ø) grows larger as the components of ø grow larger and  is the regularization strength (hyper parameter for the learning algo)
+The value we choose for  determines how much we want to protect against overfitting.
+A  = 0 implies that we do not take any measures against the possibility of overfitting.
+If  is too large, then our model will prioritize keeping ø as small as possible over trying to find tha parameter values
+that perform well on our training set.
+Choosing  is a very important task and can require some trial and error.
+
+
+L2 Regularization:
+Implemented by augmenting the error function with the squared magnitude of all weights in the neural network.
+For every weight W in the neural network, we add 1/2 W^2 to the error function.  is the regularization stength.
+Heavily penalizes peaky weight vectors and prefers diffuse weight vectors. Encourages the network to use all of its
+inputs a little rather than only some of its inputs a lot.
+During the gradient descent update, using the L2 regularization ultimately means that every weights is decayed linearly
+to 0. L2 Regularization is referred to as Weight Decay.
+
+L1 Regularization:
+Here we add /w for every weight win in the NN.
+Has the intriguing property that it leads the weight vectors to become sparse during optimization. (very close to 0)
+Neurons with L1 regularizatino end up using only a small subset of their most important inputs and become quite
+resistant to noise in the inputs.
+L1 is useful when you want to understand exactly which features are contributing to a decision.
+L2 performs better.
+
+Max Norm Restraints
+Restrict ø from becoming too large manually by enforcing an absolute upper bound of the magnitude of the incoming
+weight vector for every neuron and use projected gradient decent to enforce the constraint.
+
+Dropout:
+Used in lieu of other techniques to prevent overfitting.
+Dropout is implemented by only keeping a neuron active with some probability p (a hyperparameter) or setting it to zero
+otherwise. Intuitively this forces the network to be accurate even in the absence of certain information.
+It prevents the network from becoming too dependent on any one *or any small combination of neurons) Expressed more
+mathematically, it prevents overfitting by providing a way of approximately combining exponentially many different
+NN architectures efficiently.
+

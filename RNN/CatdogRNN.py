@@ -1,63 +1,34 @@
-
-"""
-
-with a traditional nn we have to concept of the order of events
-a traditional nn would not know the difference between billy killed jim and jim killed billy
-you have to know if the ball is moving forward or backward
-
-"""
-
-
 import tensorflow as tf
-
-#we're working with the mnist data set of 60,000 of handwritten 28*28 pixels and 10,000 testing examples
-#objective is to take the mnist handwritten characters and pass through neural network until it can model
-#what is going on.
-
-""" input > weight > hidden layer 1 (activation function) > weights > hidden layer2 
-(activation function) > weights > output layer"""
-
-# in a typical neural network we just pass data straight through (feed forward)
-#at the end compare output to intended output > cost functior (loss function) cross entropy is an example
-#then gonnna use (optimizer) > minimize cost (AdamOptimizer... SGD, AdaGrad) < 8 different options in tensorflow
-#that goes backwards and it's called backpropagation
-
-#feed forward + backpropagation = epoch (that's the cycle)
-
-from tensorflow.examples.tutorials.mnist import input_data
-mnist = input_data.read_data_sets("/tmp/data/", one_hot=True) #this means one component has electrcity running through it and the rest don't
-
-# some1 = mnist.train.next_batch(2)
-# some2 = mnist.train.num_examples
-#
-# some3 = mnist.test.images
-# some4 = mnist.test.labels
-#
+import os
+import glob
+import numpy as np
 from tensorflow.contrib import rnn
+from .AnyImage import *
 
-#10 classes, 0 - 9 handwritten digits
-
+""" The Import from .AnyImage contains: 
+1) "classes" definition
+2) "image_size" definition
+3) "test_path" definition 
+4) "train_path" definition
+5) load_train, load_test, class:DataSet(), read_train_sets, read_test_set 
 """
-This is what one_hot = True means :
-Since we have 0-9 handwritten digits, only one of them will be in the picture at a time, which means one_hot =True
-0 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-1 = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-2 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+""" 
+RNN Architecture 
+input > weights > hidden layer 1 (activation function) > weights > hidden layer2 
+(activation function) > weights > output layer
 """
-hm_epochs = 5  # cycles of feed forward +backpropagation aka the number of times you feed the information through your neural network
-
-#numbers of classes
-n_classes = 10
-
-#you need to define a batch size to load into your RAM because you can't load the entire dataset at once
-batch_size = 128 # With a normal NN we pass everything at once albeit in chunks for the sake of RAM only.
-chunk_size = 28 #Chunk size
-n_chunks = 28 #With a RNN we go in a certain sequence in chunks. Our Images are 28*28 so we go in 28 chunks of 28 pixels
-rnn_size = 128 # can make this bigger
+#Parameters of the RNN defined here.
+hm_epochs = 5    # Number of cycles of feedforward + backprop. AKA how many times all images pass through NN Higher will imporve accuracy
+n_classes = 2    # Number of classes to learn.
+batch_size = 128 # How many images we want to load up at a time.
+chunk_size = 128 # with RNN we need to go in a certain order. The images are 128*128 pix so we will go in 128 pix chunks
+n_chunks = 28    # 128 times.
+rnn_size = 128   # can make this bigger
 
 #define placeholder variables height x width
 x = tf.placeholder(dtype=tf.float32, shape=[None, n_chunks, chunk_size]) # with the defined size if something goes wrong tensorflow will throw an error but without it it won't
-y = tf.placeholder(dtype=tf.float32, shape=[None, n_classes])
+y = tf.placeholder(dtype=tf.float32, shape=[None, 10])
 
 def recurrent_neural_network(x):
     layer = {'weights': tf.Variable(tf.random_normal([rnn_size, n_classes])),
@@ -129,13 +100,11 @@ graph.get_operations()
 
 """
 biases are things that are added at the end after the weights
-the weights are multiplied by the weights and the weight
+the weights are multiplied by the weights and the weight 
 
-input_data * weights + biases
+input_data * weights + biases 
 
 the biggest benefit of biases is that if all the input data was 0 the weights times 0 would be 0 so the neurons won't fire
-with a bias however, it will fire because something is added to those zeros
+with a bias however, it will fire because something is added to those zeros 
 
 """
-
-

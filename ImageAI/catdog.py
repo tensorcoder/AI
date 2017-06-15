@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-from imageimport import *
+from ImageAI.imageimport import
 
 """
 THIS IS THE RESHAPE FUNCTION
