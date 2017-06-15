@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a60f29-60fc-4f06-aa7c-82b477a5e983" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Overfitting" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RNN/AnyImage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RNN/CatdogRNN.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageAI/cloud_gray.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CNN/convolutional.py" afterPath="$PROJECT_DIR$/CNN/convolutional.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/dataset.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/dataset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/train.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py" afterPath="$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/catdog.py" afterPath="$PROJECT_DIR$/ImageAI/catdog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/gray_image.py" afterPath="$PROJECT_DIR$/ImageAI/gray_image.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RNN/recurrent.py" afterPath="$PROJECT_DIR$/RNN/recurrent.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -547,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496931054110</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Modifications adding new RNN stuff and Notes on overfitting">
+      <created>1497527859004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1497527859004</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +605,8 @@
     <MESSAGE value="added 3 test image" />
     <MESSAGE value="completed imagerecognition" />
     <MESSAGE value="convolutional layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="convolutional layer" />
+    <MESSAGE value="Modifications adding new RNN stuff and Notes on overfitting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications adding new RNN stuff and Notes on overfitting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,6 +643,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="2" selection-end-line="157" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -775,6 +775,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -820,6 +823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,6 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2162">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,6 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
