@@ -375,9 +375,9 @@ with tf.Session() as session:
             session.run(optimizer, feed_dict=feed_dict_train)
 
             # Print status at end of each epoch (defined as full pass through training dataset).
-            if i % int(data.train.num_examples / batch_size) == 0:
+            if i % int(data.train._num_examples / batch_size) == 0:
                 val_loss = session.run(cost, feed_dict=feed_dict_validate)
-                epoch = int(i / int(data.train.num_examples / batch_size))
+                epoch = int(i / int(data.train._num_examples / batch_size))
 
                 print_progress(epoch, feed_dict_train, feed_dict_validate, val_loss)
 

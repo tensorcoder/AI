@@ -6,8 +6,9 @@ a traditional nn would not know the difference between billy killed jim and jim 
 you have to know if the ball is moving forward or backward
 
 """
+import numpy as np
 
-
+np.set_printoptions(threshold=np.nan)
 import tensorflow as tf
 
 #we're working with the mnist data set of 60,000 of handwritten 28*28 pixels and 10,000 testing examples
@@ -44,7 +45,7 @@ Since we have 0-9 handwritten digits, only one of them will be in the picture at
 1 = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 2 = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 """
-hm_epochs = 5  # cycles of feed forward +backpropagation aka the number of times you feed the information through your neural network
+hm_epochs = 2  # cycles of feed forward +backpropagation aka the number of times you feed the information through your neural network
 
 #numbers of classes
 n_classes = 10
@@ -99,7 +100,7 @@ def train_neural_network(x):
         correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1)) #tf.argmax returns the index of the maximum value, this code comparing the prediction to the answer
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
         print('Accuracy: ', accuracy.eval({x: mnist.test.images.reshape((-1, n_chunks, chunk_size)), y: mnist.test.labels}))
-
+        print('test images: ', np.array(mnist.test.images.reshape(-1, n_chunks, chunk_size)), 'test labels: ', np.array(mnist.test.labels))
 train_neural_network(x)
 
 graph = tf.get_default_graph()

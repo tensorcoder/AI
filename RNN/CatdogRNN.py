@@ -3,7 +3,9 @@ import os
 import glob
 import numpy as np
 from tensorflow.contrib import rnn
-from .AnyImage import *
+from RNN.AnyImage import *
+
+
 
 """ The Import from .AnyImage contains: 
 1) "classes" definition
@@ -18,13 +20,19 @@ RNN Architecture
 input > weights > hidden layer 1 (activation function) > weights > hidden layer2 
 (activation function) > weights > output layer
 """
+
+
 #Parameters of the RNN defined here.
 hm_epochs = 5    # Number of cycles of feedforward + backprop. AKA how many times all images pass through NN Higher will imporve accuracy
 n_classes = 2    # Number of classes to learn.
 batch_size = 128 # How many images we want to load up at a time.
 chunk_size = 128 # with RNN we need to go in a certain order. The images are 128*128 pix so we will go in 128 pix chunks
-n_chunks = 28    # 128 times.
+n_chunks = 128    # 128 times. # This is the "LSTM" memory we are talking about
 rnn_size = 128   # can make this bigger
+
+#defining the data set to be anything you want: not only mnist
+data_sets = read_train_sets(train_path, image_size, classes, validation_size)
+data_sets_test_images, data_sets_test_labels = read_test_set(test_path, image_size, classes)
 
 #define placeholder variables height x width
 x = tf.placeholder(dtype=tf.float32, shape=[None, n_chunks, chunk_size]) # with the defined size if something goes wrong tensorflow will throw an error but without it it won't
@@ -59,8 +67,8 @@ def train_neural_network(x):
 
         for epoch in range(hm_epochs): # this section here is just training the data in some way
             epoch_loss = 0
-            for _ in range(int(mnist.train.num_examples/batch_size)): # this = total num of samples / batch size = how many times we need to cycle
-                epoch_x, epoch_y = mnist.train.next_batch(batch_size) # chunks through the data set for you
+            for _ in range(int(data_sets.train._num_examples/batch_size)): # this = total num of samples / batch size = how many times we need to cycle
+                epoch_x, epoch_y, _v_, cls_batch = data_sets.train.next_batch(batch_size) # chunks through the data set for you
                 epoch_x = epoch_x.reshape((batch_size, n_chunks, chunk_size))
                 _, c = sess.run([optimizer, cost], feed_dict={x: epoch_x, y: epoch_y})
                 epoch_loss += c
@@ -69,7 +77,8 @@ def train_neural_network(x):
             #once we have trained our ai, we test it here.
         correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1)) #tf.argmax returns the index of the maximum value, this code comparing the prediction to the answer
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
-        print('Accuracy: ', accuracy.eval({x: mnist.test.images.reshape((-1, n_chunks, chunk_size)), y: mnist.test.labels}))
+        print('test images: ', data_sets_test_images, 'test_labels: ', data_sets_test_labels)
+        print('Accuracy: ', accuracy.eval({x: data_sets_test_images.reshape((-1, n_chunks, chunk_size)), y: data_sets_test_labels}))
 
 train_neural_network(x)
 
