@@ -193,7 +193,7 @@ print('datasets.train.next_batch = ', data_sets.train.next_batch(batch_size=1)) 
 print('datasets.valid.next_batch = ', data_sets.valid.next_batch(batch_size=1))  # Works despite warning from PC
 print('number of train examples = ', data_sets.train._num_examples)              # Works despite warning from PC
 print('number of valid examples = ', data_sets.valid._num_examples)
-print(._images, ._labels, ._ids, ._cls)
+
 print('train images = ', data_sets.train._images)
 print('train labels = ', data_sets.train._labels)
 print('train ids = ', data_sets.train._ids)
