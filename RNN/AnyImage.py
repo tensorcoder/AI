@@ -11,12 +11,16 @@ classes = ['dogs', 'cats']  # The names of the classes.
 
 image_size = 128  # Set the Image Size <- square image 128x128 pixels. Can make not square by modifying the functions below
 
+validation_size = 0.2  #percent of training data saved for validation
+
 test_path = '/Users/mk/PycharmProjects/AI/ImageAI/CatDog/testing_data'
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 #Path to smaller folder containing testing images
 train_path = '/Users/mk/PycharmProjects/AI/ImageAI/CatDog/training_data'
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 # Path to bigger folder of training images with subfolders containing images named after the classes
+
+
 
 def load_train(train_path, image_size, classes):
     images = []
@@ -140,7 +144,7 @@ class DataSet(object):
         return self._images[start:end], self._labels[start:end], self._ids[start:end], self._cls[start:end]
 
 
-def read_train_sets(train_path, image_size, classes, validation_size=0):  #Here validation size is a 0-1 indicating how much of the training data you want to use for validation purposes.
+def read_train_sets(train_path, image_size, classes, validation_size=float(0)):  #Here validation size is a 0-1 indicating how much of the training data you want to use for validation purposes.
     class DataSets(object):
         pass
 
@@ -174,6 +178,31 @@ def read_test_set(test_path, image_size, classes):
     return images, ids
 
 # images, ids = read_test_set(test_path, image_size, classes)  #
+
+
+"""Code for checking if the above functions work properly because the IDE doesn't do the code justice"""
+data_sets = read_train_sets(train_path, image_size, classes, validation_size)
+
+images, labels, ids, cls = load_train(train_path, image_size, classes)
+data2 = DataSet(images, labels, ids, cls)
+
+print('number of examples = ', data2._num_examples)
+print('num')
+
+print('datasets.train.next_batch = ', data_sets.train.next_batch(batch_size=1))  # Works despite warning from PC
+print('datasets.valid.next_batch = ', data_sets.valid.next_batch(batch_size=1))  # Works despite warning from PC
+print('number of train examples = ', data_sets.train._num_examples)              # Works despite warning from PC
+print('number of valid examples = ', data_sets.valid._num_examples)
+print(._images, ._labels, ._ids, ._cls)
+print('train images = ', data_sets.train._images)
+print('train labels = ', data_sets.train._labels)
+print('train ids = ', data_sets.train._ids)
+print('train cls = ', data_sets.train._cls)
+
+print('valid images = ', data_sets.valid._images)
+print('train labels = ', data_sets.valid._labels)
+print('train ids = ', data_sets.valid._ids)
+print('train cls = ', data_sets.train._cls)
 
 
 """Code for displaying the images to make sure they are fine and checking sizes to make sure they are small enough"""

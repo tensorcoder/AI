@@ -28,7 +28,7 @@ rnn_size = 128   # can make this bigger
 
 #define placeholder variables height x width
 x = tf.placeholder(dtype=tf.float32, shape=[None, n_chunks, chunk_size]) # with the defined size if something goes wrong tensorflow will throw an error but without it it won't
-y = tf.placeholder(dtype=tf.float32, shape=[None, 10])
+y = tf.placeholder(dtype=tf.float32, shape=[None, n_classes])
 
 def recurrent_neural_network(x):
     layer = {'weights': tf.Variable(tf.random_normal([rnn_size, n_classes])),
