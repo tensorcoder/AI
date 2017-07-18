@@ -1,0 +1,14 @@
+Tensorflow Serving -- built to deploy Tensorflow on a server. Google uses this in production.
+
+PyTorch is meant for research but TF Serving is used by google.
+
+File System --> Tensorflow Serving --> gRPC
+
+HTTP is most popular way of websites
+
+RPC is protocol that can run on top of HTTP and REST also
+
+REST has a set of verbs:
+GET POST PATCH DELETE
+
+You can run RPC on top of HTTP on top of the gRPC client. A type of RPC.

@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a60f29-60fc-4f06-aa7c-82b477a5e983" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/coc-0231 copy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/coc-0238.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/coc-0250.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Deploying for production" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/CannyEdgeDetection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/DeleteDuplicates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/FindDuplicates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/ImageManipulation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/MakeThemAllGrey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/example22.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/label_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/object_locate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/orb_detect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/retrain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/surf_detect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFPOETS/textfile.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeSeriesRegression/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeSeriesRegression/generate_sine_wave.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeSeriesRegression/inverttest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeSeriesRegression/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/CatDog/train.py" afterPath="$PROJECT_DIR$/ImageAI/CatDog/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/ImageRecognition/findextension.py" afterPath="$PROJECT_DIR$/ImageAI/ImageRecognition/findextension.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ImageAI/gray_image.py" afterPath="$PROJECT_DIR$/ImageAI/gray_image.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RNN/AnyImage.py" afterPath="$PROJECT_DIR$/RNN/AnyImage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RNN/CatdogRNN.py" afterPath="$PROJECT_DIR$/RNN/CatdogRNN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RNN/recurrent.py" afterPath="$PROJECT_DIR$/RNN/recurrent.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,58 +41,47 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CatdogRNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RNN/CatdogRNN.py">
+      <file leaf-file-name="gray_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageAI/gray_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="137">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="70" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recurrent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RNN/recurrent.py">
+      <file leaf-file-name="Imagerecognition.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4514">
-              <caret line="356" column="12" lean-forward="true" selection-start-line="356" selection-start-column="12" selection-end-line="356" selection-end-column="47" />
+            <state relative-caret-position="-25">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#362#1299#0" expanded="false" />
-                <element signature="e#1450#2183#0" expanded="false" />
-                <element signature="e#3210#3288#0" expanded="false" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnntflearn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TFLEARN/cnntflearn.py">
+      <file leaf-file-name="ImageManipulation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFPOETS/ImageManipulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="103">
+              <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnyImage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RNN/AnyImage.py">
+      <file leaf-file-name="example22.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TFPOETS/example22.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="265">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -78,13 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/dataset.py">
+      <file leaf-file-name="4x28_grey_0013.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0013.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CannyEdgeDetection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFPOETS/CannyEdgeDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +121,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>DataSets</find>
+      <find>DATA_URL</find>
+      <find>image_dir</find>
+      <find>loss</find>
+      <find>The data should normally be NULL!</find>
+      <find>dest</find>
+      <find>Batch</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -123,23 +147,64 @@
         <option value="$PROJECT_DIR$/CNN/convolutional.py" />
         <option value="$PROJECT_DIR$/ImageAI/CatDog/intexample.py" />
         <option value="$PROJECT_DIR$/ImageAI/imageimport.py" />
-        <option value="$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py" />
-        <option value="$PROJECT_DIR$/ImageAI/gray_image.py" />
         <option value="$PROJECT_DIR$/Notes/Overfitting Notes.ipynb" />
         <option value="$PROJECT_DIR$/Notes/Overfitting" />
         <option value="$PROJECT_DIR$/ImageAI/CatDog/dataset.py" />
         <option value="$PROJECT_DIR$/ImageAI/catdog.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/ImageAI/CatDog/train.py" />
-        <option value="$PROJECT_DIR$/RNN/CatdogRNN.py" />
         <option value="$PROJECT_DIR$/RNN/recurrent.py" />
         <option value="$PROJECT_DIR$/RNN/AnyImage.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/__init__.py" />
+        <option value="$PROJECT_DIR$/Notes/Deploying for production" />
+        <option value="$PROJECT_DIR$/RNN/CatdogRNN.py" />
+        <option value="$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/downloader.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/testing.py" />
+        <option value="$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/label_image.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesRegression/load_data_2.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesRegression/inverttest.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesRegression/__init__.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesRegression/generate_sine_wave.py" />
+        <option value="$PROJECT_DIR$/TimeSeriesRegression/train.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/surf_detect.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/orb_detect.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/object_locate.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/retrain.py" />
+        <option value="$PROJECT_DIR$/ImageAI/ImageRecognition/findextension.py" />
+        <option value="$PROJECT_DIR$/ImageAI/gray_image.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/DeleteDuplicates.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/FindDuplicates.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/MakeThemAllGrey.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/ImageManipulation.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/CannyEdgeDetection.py" />
+        <option value="$PROJECT_DIR$/TFPOETS/example22.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="y" value="22" />
+    <option name="width" value="1275" />
+    <option name="height" value="729" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -159,8 +224,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.5.3 (~/anaconda/envs/tensorflow/bin/python) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="AI" />
@@ -181,7 +262,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TFLEARN" />
+              <option name="myItemId" value="TFPOETS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TFPOETS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TFPOETS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Grey" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,84 +348,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CatDog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CatDog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ImageAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CatDog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CNN" />
+              <option name="myItemId" value="ImageRecognition" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TFPOETS" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TFPOETS" />
+      <recent name="$PROJECT_DIR$/TFPOETS/TrainingImages" />
+      <recent name="$PROJECT_DIR$/TimeSeriesRegression" />
       <recent name="$PROJECT_DIR$/ImageAI/ImageRecognition/images/numbers" />
       <recent name="$PROJECT_DIR$/ImageAI" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,92 +384,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CatdogRNN">
-    <configuration default="false" name="AnyImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.example22">
+    <configuration default="false" name="MakeThemAllGrey" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFPOETS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNN/AnyImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFPOETS/MakeThemAllGrey.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="DeleteDuplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImageAI/CatDog" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFPOETS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageAI/CatDog/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFPOETS/DeleteDuplicates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="gray_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="FindDuplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImageAI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFPOETS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageAI/gray_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFPOETS/FindDuplicates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="recurrent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="CannyEdgeDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFPOETS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNN/recurrent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFPOETS/CannyEdgeDetection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="CatdogRNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="example22" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFPOETS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RNN/CatdogRNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFPOETS/example22.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -475,24 +540,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.AnyImage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.train" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gray_image" />
-      <item index="3" class="java.lang.String" itemvalue="Python.recurrent" />
-      <item index="4" class="java.lang.String" itemvalue="Python.CatdogRNN" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MakeThemAllGrey" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DeleteDuplicates" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FindDuplicates" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.example22" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CatdogRNN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AnyImage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.recurrent" />
-        <item index="3" class="java.lang.String" itemvalue="Python.train" />
-        <item index="4" class="java.lang.String" itemvalue="Python.gray_image" />
+        <item index="0" class="java.lang.String" itemvalue="Python.example22" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CannyEdgeDetection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FindDuplicates" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DeleteDuplicates" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MakeThemAllGrey" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -628,22 +696,33 @@
       <option name="project" value="LOCAL" />
       <updated>1497532806455</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Modifications adding new RNN stuff and Notes on overfitting">
+      <created>1497541733469</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1497541733469</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_testing_py - 2017.06.19 at 10h 32m 09s.xml">
+      <configuration name="Unittests in testing.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1275" height="729" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16796875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1254902" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.503125" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29747677" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36515152" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39707837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -651,7 +730,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -708,301 +787,366 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.6.jpg">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/image.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.12.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.15.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.17.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.18.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.33.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.29.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.31.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.54.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.78.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.81.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.94.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.93.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.92.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.91.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.90.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.51.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.89.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.55.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/savingexample.py">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Text_version.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/cloud_gray.jpg" />
-    <entry file="file://$PROJECT_DIR$/ImageAI/clouds_grey.jpg" />
-    <entry file="file://$PROJECT_DIR$/ImageAI/basics.py">
+    <entry file="file://$PROJECT_DIR$/TimeSeriesRegression/load_data_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/coc-0250.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/coc-0231 copy.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/1257278700/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4201">
+          <caret line="2565" column="56" lean-forward="false" selection-start-line="2565" selection-start-column="56" selection-end-line="2565" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/surf_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/textfile.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.457.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.460.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.456.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.453.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.148_grey.jpg" />
-    <entry file="file://$PROJECT_DIR$/ImageAI/iar.txt" />
-    <entry file="file://$PROJECT_DIR$/ImageAI/digitclassifier.py">
+    <entry file="file://$PROJECT_DIR$/TimeSeriesRegression/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/gray_image.py">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/orb_detect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="302">
+          <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
           <folding>
             <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/training_data/dogs/dog.148.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/estimatr.py">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/object_locate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Overfitting Notes.ipynb" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Overfitting">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFLEARN/mnist/train-labels-idx1-ubyte.gz">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/convolutional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/catdog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3022">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="840">
+          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/cat.1009.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/cat.1007.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/cat.1004.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/testing_data/cats/cat.1002.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/recurrent.py">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/label_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFLEARN/cnntflearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4514">
-          <caret line="356" column="12" lean-forward="true" selection-start-line="356" selection-start-column="12" selection-end-line="356" selection-end-column="47" />
+        <state relative-caret-position="-673">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#362#1299#0" expanded="false" />
-            <element signature="e#1450#2183#0" expanded="false" />
-            <element signature="e#3210#3288#0" expanded="false" />
+            <element signature="e#772#881#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageAI/CatDog/dataset.py">
+    <entry file="file://$PROJECT_DIR$/TFPOETS/retrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="1890">
+          <caret line="126" column="32" lean-forward="false" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="e#834#872#0" expanded="true" />
+            <element signature="e#5596#6811#0" expanded="false" />
+            <element signature="e#6923#7659#0" expanded="false" />
+            <element signature="e#7694#8446#0" expanded="false" />
+            <element signature="e#7914#8367#0" expanded="false" />
+            <element signature="e#8564#9071#0" expanded="false" />
+            <element signature="e#10172#10347#0" expanded="false" />
+            <element signature="e#10414#10726#0" expanded="false" />
+            <element signature="e#10777#11075#0" expanded="false" />
+            <element signature="e#11290#11839#0" expanded="false" />
+            <element signature="e#12043#14262#0" expanded="false" />
+            <element signature="e#14394#15958#0" expanded="false" />
+            <element signature="e#16169#19058#0" expanded="false" />
+            <element signature="e#19237#21647#0" expanded="false" />
+            <element signature="e#21768#22356#0" expanded="false" />
+            <element signature="e#22477#26377#0" expanded="false" />
+            <element signature="e#26411#26866#0" expanded="false" />
+            <element signature="e#26950#29493#0" expanded="false" />
+            <element signature="e#29559#30258#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_17.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/4x28_grey_7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_88.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0294.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0293.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0019.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0020.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0880.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0007.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/DeleteDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/AnyImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageAI/ImageRecognition/findextension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/coc-0238.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/MakeThemAllGrey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/FindDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0003.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/CannyEdgeDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0001.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/ImageManipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="36" column="61" lean-forward="true" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/CatdogRNN.py">
+    <entry file="file://$PROJECT_DIR$/ImageAI/gray_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="137">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="70" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/AnyImage.py">
+    <entry file="file://$PROJECT_DIR$/ImageAI/ImageRecognition/Imagerecognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="-25">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/4x28-0011.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/4x28-0015.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-0001.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0004.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0006.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0014.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0023.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0021.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/409-BIF-2-0013.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/Test/Grey/4x28_grey_0013.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFPOETS/example22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

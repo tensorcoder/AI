@@ -23,12 +23,12 @@ input > weights > hidden layer 1 (activation function) > weights > hidden layer2
 
 
 #Parameters of the RNN defined here.
-hm_epochs = 5    # Number of cycles of feedforward + backprop. AKA how many times all images pass through NN Higher will imporve accuracy
+hm_epochs = 5   # Number of cycles of feedforward + backprop. AKA how many times all images pass through NN Higher will improve accuracy
 n_classes = 2    # Number of classes to learn.
-batch_size = 128 # How many images we want to load up at a time.
+batch_size = 10 # How many images we want to load up at a time.
 chunk_size = 128 # with RNN we need to go in a certain order. The images are 128*128 pix so we will go in 128 pix chunks
 n_chunks = 128    # 128 times. # This is the "LSTM" memory we are talking about
-rnn_size = 128   # can make this bigger
+rnn_size = 512   # can make this bigger
 
 #defining the data set to be anything you want: not only mnist
 data_sets = read_train_sets(train_path, image_size, classes, validation_size)
@@ -77,7 +77,7 @@ def train_neural_network(x):
             #once we have trained our ai, we test it here.
         correct = tf.equal(tf.argmax(prediction, 1), tf.argmax(y, 1)) #tf.argmax returns the index of the maximum value, this code comparing the prediction to the answer
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
-        print('test images: ', data_sets_test_images, 'test_labels: ', data_sets_test_labels)
+        # print('test images: ', data_sets_test_images, 'test_labels: ', data_sets_test_labels)
         print('Accuracy: ', accuracy.eval({x: data_sets_test_images.reshape((-1, n_chunks, chunk_size)), y: data_sets_test_labels}))
 
 train_neural_network(x)

@@ -82,10 +82,10 @@ def load_test(test_path, image_size, classes):
             X_test_id.append(flbase)
 
             ### because we're not creating a DataSet object for the test images, normalization happens here
-        labels = np.array(labels)
-        X_test = np.array(X_test, dtype=np.uint8)
-        X_test = X_test.astype('float32')
-        X_test = X_test / 255
+    labels = np.array(labels)
+    X_test = np.array(X_test, dtype=np.uint8)
+    X_test = X_test.astype('float32')
+    X_test = X_test / 255
 
     return X_test, labels
 
